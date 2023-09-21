@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+    background-image: url("form-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+  
+#list {
+    display: flex;
+    justify-content: center;
+}
+  
+#list li {
+    margin-top: 7vh;
+    list-style-type: none;
+    border: 2px solid #82AAE3;
+    background-color: #82AAE3;
+    width: 10%;
+    text-align: center;
+    padding: 1%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px rgb(167, 167, 167);
+    font-family: 'Courier New', Courier, monospace;
+    height: 20%;
+    font-weight: bold;
+}
+
+#list li:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(78, 78, 78);
+    opacity: 0.7;
+}
+
+div {
+    margin-top: 23vh;
+    text-align: center;
+    font-size: 23px;
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 692px) {
+    #list li {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    #list li {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+
+#active {
+    opacity: 0.5;
+}
+
+input {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28vw;
+    margin-top: 0.3vh;
+    padding-left: 1%;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#first-name {
+    margin-top: 5%;
+}
+
+textarea {
+    margin-left: 28.1vw;
+    margin-top: 0.3vh;
+    max-width: 40.7vw;
+    max-height: 20vh;
+    min-width: 40.7vw;
+    min-height: 20.7vh;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#submit-btn {
+    margin-left: 28.5vw;
+    background-color: #82AAE3;
+    border: 2px solid #82AAE3;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+}

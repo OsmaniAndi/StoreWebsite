@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <ul id="list">
+          <li onclick="location.href='index.html'">Home</li>
+          <li onclick="location.href='StorePage.html'">Store</li>
+          <li onclick="location.href='aboutus.html'">About Us</li>
+          <li id="active">Contact</li>
+        </ul>
+      </nav>
+
+    <form id="contact-form" action="mailto:andiosmani672@yahoo.com" method="post">
+        <input id="first-name" type="text" placeholder="First Name" required>
+        <input id="last-name" type="text" placeholder="Last Name" required>
+        <input id="email" type="email" placeholder="Email" required>
+        <textarea placeholder="Type your Message" id="message" required></textarea>
+        <input type="submit" id="submit-btn" value="Send">
+    </form> 
+</body>
+</html>

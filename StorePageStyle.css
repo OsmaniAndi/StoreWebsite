@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: snow;
+    background-image: url("background-image.jpg");
+    background-size: cover;
+}
+  
+#list {
+    display: flex;
+    justify-content: center;
+}
+  
+#list li {
+    margin-top: 7vh;
+    list-style-type: none;
+    border: 2px solid #82AAE3;
+    background-color: #82AAE3;
+    width: 10%;
+    text-align: center;
+    padding: 1%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px rgb(167, 167, 167);
+    font-family: 'Courier New', Courier, monospace;
+    height: 20%;
+    font-weight: bold;
+}
+
+#list li:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(78, 78, 78);
+    opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 692px) {
+    #list li {
+        width: 20%;
+        height: 20%;
+    }
+
+    #product2 {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    #list li {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+#active {
+    opacity: 0.5;
+}
+
+#text1 {
+    font-size: 18px;
+    width: 90%;
+    padding-left: 4%;
+}
+
+#description1 {
+    font-size: 14px;
+    width: 90%;
+    padding-left: 4%;
+}
+
+#product1 {
+    margin-right: 10%;
+    border: 2px white solid;
+    background-color: #FEFCF3;
+    width: 260px;
+    box-shadow: 0 0 10px rgb(214, 213, 213);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#product1:hover {
+    cursor: pointer;
+}
+
+#img1 {
+    padding-left: 22%;
+    padding-top: 5%;
+}
+
+#text2 {
+    font-size: 18px;
+    width: 90%;
+    padding-left: 4%;
+}
+
+#description2 {
+    font-size: 14px;
+    width: 90%;
+    padding-left: 4%;
+}
+
+#product2 {
+    border: 2px white solid;
+    background-color: #FEFCF3;
+    width: 260px;
+    box-shadow: 0 0 10px rgb(214, 213, 213);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#product2:hover {
+    cursor: pointer;
+}
+
+#img2 {
+    padding-left: 22%;
+    padding-top: 5%;
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+    #product1 {
+        width: 200px;
+        height: 350px;
+    }
+
+    #product2 {
+        width: 200px;
+        height: 350px;
+    }
+
+    #img1 {
+        width: 100px;
+        height: 120px;
+    }
+
+    #text1 {
+        font-size: 16px;
+    }
+
+    #description1 {
+        font-size: 14px;
+    }
+
+    #img2 {
+        width: 100px;
+        height: 120px;
+    }
+
+    #text2 {
+        font-size: 16px;
+    }
+
+    #description2 {
+        font-size: 14px;
+    }
+
+    #products {
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #products {
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    #product1 {
+        width: 180px;
+        height: 320px;
+    }
+
+    #product2 {
+        width: 180px;
+        height: 320px;
+    }
+
+    #img1 {
+        width: 100px;
+        height: 120px;
+        padding-left: 25%;
+    }
+
+    #text1 {
+        font-size: 14px;
+    }
+
+    #description1 {
+        font-size: 12px;
+    }
+
+
+
+    #img2 {
+        width: 100px;
+        height: 120px;
+        padding-left: 25%;
+    }
+
+    #text2 {
+        font-size: 14px;
+    }
+
+    #description2 {
+        font-size: 12px;
+    }
+
+    #products {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #product1 {
+        width: 180px;
+        height: 320px;
+        margin-right: 5%;
+    }
+
+    #products {
+        margin-top: 8%;
+    }
+
+    #product2 {
+        width: 180px;
+        height: 320px;
+    }
+
+    #img1 {
+        width: 100px;
+        height: 120px;
+        padding-left: 25%;
+    }
+
+    #text1 {
+        font-size: 14px;
+    }
+
+    #description1 {
+        font-size: 12px;
+    }
+
+
+
+    #img2 {
+        width: 100px;
+        height: 120px;
+        padding-left: 25%;
+    }
+
+    #text2 {
+        font-size: 14px;
+    }
+
+    #description2 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #product1 {
+        width: 240px;
+        height: 340px;
+        margin-bottom: 8%;
+    }
+
+    #products {
+        display: grid;
+    }
+
+    #product2 {
+        width: 240px;
+        height: 340px;
+    }
+
+    #img1 {
+        width: 100px;
+        height: 140px;
+        padding-left: 28%;
+    }
+
+    #text1 {
+        font-size: 15px;
+    }
+
+    #description1 {
+        font-size: 13px;
+    }
+
+
+
+    #img2 {
+        width: 100px;
+        height: 140px;
+        padding-left: 28%;
+    }
+
+    #text2 {
+        font-size: 15px;
+    }
+
+    #description2 {
+        font-size: 13px;
+    }
+}
+
